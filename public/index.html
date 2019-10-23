@@ -1,27 +1,65 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+      crossorigin="anonymous"
+    />
+    <title>Change Calculator</title>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
 
-  <title>Change Calculator</title>
+      body {
+        /* Source: https://uigradients.com */
+        background: #3a7bd5;
+        background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);
+        background: linear-gradient(to right, #3a6073, #3a7bd5);
+      }
 
-  <style>
+      h3 {
+        color: white;
+        border-bottom: 1px solid white;
+        padding: 10px 0px 10px 0px;
+        margin-bottom: 10px;
+      }
 
-    body {
-      /* Source: https://uigradients.com */
-      background: #3a7bd5;
-      background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);
-      background: linear-gradient(to right, #3a6073, #3a7bd5);
-    }
-  </style>
-</head>
+      input {
+        width: 100%;
+      }
 
-<body>
-  <div id="root"></div>
+      button {
+        width: 100%;
+      }
 
-  <script src="bundle.js"></script>
-</body>
+      .card-header {
+        text-align: center;
+      }
 
+      .change {
+        padding: 10px;
+        margin: 20px 0 20px 0;
+        text-align: center;
+      }
+
+      .button-text {
+        overflow: hidden;
+        white-space: nowrap;
+        display: block;
+        text-overflow: ellipsis;
+      }​
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script src="bundle.js"></script>
+  </body>
 </html>
