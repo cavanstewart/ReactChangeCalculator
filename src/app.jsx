@@ -130,7 +130,7 @@ class App extends Component {
                   </div>
                 ) : (
                   <div className="alert alert-danger" role="alert">
-                    Nope
+                    Additional money owed.
                   </div>
                 )}
 
